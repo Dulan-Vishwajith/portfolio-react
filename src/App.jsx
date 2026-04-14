@@ -1,5 +1,5 @@
-import Overview from './components/Overview';
-import Navbar from './components/Navbar'; 
+import Overview from './components/Overview/Overview';
+import Navbar from './components/Navbar/Navbar'; 
 import About from './components/About';
 import Education from './components/Education';
 import Skills from './components/Skills';
@@ -17,7 +17,7 @@ import Contact from './components/Contacts';
 function App() {
 
   return (<>
-          <Navbar />
+          <Navbar name="Dulan Vishwajith" />
           <Overview />
           <About />
           <Education />
