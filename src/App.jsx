@@ -1,17 +1,15 @@
 import Overview from './components/Overview/Overview';
 import Navbar from './components/Navbar/Navbar'; 
-import About from './components/About';
+import About from './components/About/About';
 import Education from './components/Education';
 import Skills from './components/Skills';
-
-
-import './styles/App.css';
-import './styles/Responsive.css';
 import Projects from './components/Projects';
 import Downloads from './components/Downloads';
 import Publications from './components/Publications';
 import Contact from './components/Contacts';
 
+import './styles/App.css';
+import './styles/Responsive.css';
 
 
 function App() {

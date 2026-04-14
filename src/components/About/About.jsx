@@ -1,12 +1,13 @@
-import '../styles/About.css';
+import './About.css';
 
 function About(){
     //return the about section of the portfolio
     return(
         <section className="about" id="about">
                 {/*Title*/}
-                <h2 className="title-text" id="about-title">About</h2>
-
+                {/*Anchor tag for the about section title, allowing users to navigate to this section when clicked.*/}
+                <a href='#about' className='title-button'><h2 className="title-text">About</h2></a> 
+                
                 {/*About Text*/}
                 <div className="about-container">
                     

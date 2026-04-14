@@ -39,10 +39,8 @@
 
 /*Button*/
 .nav-button{
-  
     font-size: 12px;
     letter-spacing: 0.3px;
-    font-weight: 750;
     color: #091d41;
     cursor: pointer;
     text-transform: uppercase;

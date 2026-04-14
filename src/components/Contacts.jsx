@@ -3,7 +3,7 @@ function Contact() {
   
   return (
 <>
-        <button className="back-to-top" id="backToTop" onclick="goTo('overview')"><i class="fas fa-arrow-up"></i></button>
+        <button className="back-to-top" id="backToTop" onclick="goTo('overview')"><i className="fas fa-arrow-up"></i></button>
         <section className="footer" id="contact">
             {/*Footer Container*/}
             <div className="footer-container">
@@ -18,12 +18,12 @@ function Contact() {
 
                     {/*Email*/}
                     <div className="email">
-                        <a href="mailto:dulanvishwajithgunarathna@gmail.com"><i class="fas fa-envelope"></i> Email Me</a>
+                        <a href="mailto:dulanvishwajithgunarathna@gmail.com"><i className="fas fa-envelope"></i> Email Me</a>
                     </div>
                     {/*Social Links*/}
                     <div className="links">
-                        <a href="https://github.com/Dulan-Vishwajith" target="_blank"><i class="fab fa-github"></i>  GitHub</a>
-                        <a href="https://www.linkedin.com/in/dulan-vishwajith-a8a230216/"><i class="fab fa-linkedin"></i>  LinkedIn</a>
+                        <a href="https://github.com/Dulan-Vishwajith" target="_blank"><i className="fab fa-github"></i>  GitHub</a>
+                        <a href="https://www.linkedin.com/in/dulan-vishwajith-a8a230216/"><i className="fab fa-linkedin"></i>  LinkedIn</a>
                     </div>                    
 
                 </div>

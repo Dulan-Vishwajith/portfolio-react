@@ -46,3 +46,7 @@ section{
     background: #c9906f;
     transform: translateY(-2px);
 }
+
+.title-button {
+    text-decoration: none;
+}

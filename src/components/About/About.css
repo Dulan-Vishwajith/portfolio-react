@@ -1,7 +1,9 @@
 /*About Section*/
 .about{
     flex-direction: column;
+    text-decoration: none;
 }
+
 /*About-text Section*/
 .about-container{
     max-width: 1000px;
