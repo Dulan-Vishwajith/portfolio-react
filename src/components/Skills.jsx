@@ -3,7 +3,7 @@ import '../styles/Skills.css';
 function Skills(){
     //return the skills section of the portfolio
     return(
-        <section className="skill" id="skill">
+        <section className="skill" id="skills">
                 <h2 className="title-text" id="skills-title">Skills</h2>
 
                 <div className="skill-container">

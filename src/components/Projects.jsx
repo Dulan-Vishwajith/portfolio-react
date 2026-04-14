@@ -7,7 +7,7 @@ import project3 from '../assets/project_img/govibiz.png';
 function Projects() {
     //return the projects section of the portfolio
     return(
-        <section className="project" id="project">
+        <section className="project" id="projects">
                 {/*Section Title*/}
                 <h2 className="title-text" id="projects-title">Projects</h2>
                 

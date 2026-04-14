@@ -1,5 +1,5 @@
-import profilepic from '../assets/profile.png';
-import '../styles/Overview.css';
+import profilepic from '../../assets/profile.png';
+import './Overview.css';
 
 
 function Overview(){
