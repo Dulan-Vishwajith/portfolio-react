@@ -3,6 +3,12 @@ import './Overview.css';
 
 
 function Overview(){
+
+    const githubLink = "https://github.com/Dulan-Vishwajith";
+    const linkedinLink = "https://www.linkedin.com/in/dulan-vishwajith-a8a230216/";
+    const mediumLink = "https://medium.com/@dulanvishwajithgunarathna";
+
+
     //return the overview section of the portfolio
     return (
             <section className="overview" id="overview">
@@ -26,15 +32,16 @@ function Overview(){
                     
                     {/*Social Media Links*/}
                     <div className="socials">
-                        <a href="https://github.com/Dulan-Vishwajith" target="_blank"><i className="fab fa-github"></i>  GitHub</a>
-                        <a href="https://www.linkedin.com/in/dulan-vishwajith-a8a230216/" target="_blank"><i className="fab fa-linkedin"></i>  LinkedIn</a>
-                        <a href="https://medium.com/@dulanvishwajithgunarathna" target="_blank"><i className="fab fa-medium"></i>  Medium</a>
+                        {/*Each anchor tag represents a social media link, allowing users to navigate to the respective profiles when clicked.*/}
+                        <a href={githubLink} target="_blank"><i className="fab fa-github"></i>  GitHub</a>
+                        <a href={linkedinLink} target="_blank"><i className="fab fa-linkedin"></i>  LinkedIn</a>
+                        <a href={mediumLink} target="_blank"><i className="fab fa-medium"></i>  Medium</a>
                     </div>
                 </div>
 
                 {/*Profile Picture*/}
                 <div className="image">
-                    <img src={profilepic} alt="profile"/>
+                    <img src={profilepic} alt="profile-pic"/>
                 </div>
 
 
