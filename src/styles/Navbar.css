@@ -1,0 +1,55 @@
+/*Header*/
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #F4F6F8;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+/*Left Section*/
+.right-section p{
+    font-size: 18px;
+    font-weight: 1000;
+    letter-spacing: 0.5px;
+    color: #091d41;
+    cursor: pointer;
+    margin: 0;
+}
+
+.right-section p:hover{
+    color: #c9906f;
+    transform: translateY(-2px);
+    transition: 0.5s;
+}
+
+/*Right Section*/
+.left-section{
+    display: flex;
+    gap: 15px;
+}
+
+/*Button*/
+.left-section button{
+    background: none;
+    border: none;
+    font-size: 12px;
+    letter-spacing: 0.3px;
+    color: #091d41;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+/*Hover Effect*/
+.left-section button:hover{
+    color: #000;
+    transform: translateY(-2px);
+}
+
