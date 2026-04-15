@@ -23,6 +23,7 @@ function Card({title, time, institute, grade, summary, titles, org, year, type})
                     </>
                 )}
 
+
                 {/*Certification Card*/}
                 {/*Turnary operator to check the type of card and render aca or cert -> cert*/}     
                 {type === 'cert' &&(

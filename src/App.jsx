@@ -3,7 +3,7 @@ import Navbar from './components/Navbar/Navbar';
 import About from './components/About/About';
 import Education from './components/Education/Education';
 import Skills from './components/Skills/Skills';
-import Projects from './components/Projects';
+import Projects from './components/Projects/Projects';
 import Downloads from './components/Downloads';
 import Publications from './components/Publications';
 import Contact from './components/Contacts';
