@@ -6,6 +6,7 @@ function ProjectCard({project_img, title, description, technologies, features, l
     //State to manage the active/inactive state of the project card
     const [activeness, setActiveness] = useState('inactive');
     //Function to toggle the active/inactive state of the project card
+    //When the project card is clicked, this function is called to toggle the state between 'active' and 'inactive'
     function toggleDetails() {
 
         //Toggle the activeness state between 'active' and 'inactive'
@@ -13,7 +14,7 @@ function ProjectCard({project_img, title, description, technologies, features, l
         setActiveness(prev => prev === 'active' ? 'inactive' : 'active');      
     }
     
-    
+
     //Return the project card component with the provided props and the toggle functionality
     //className of the project card is determined by the activeness state, allowing for styling based on whether the card is active or inactive
     return(
