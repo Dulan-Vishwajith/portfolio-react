@@ -25,7 +25,7 @@
     width: 100%;
     padding: 22px;
     border-radius: 12px;
-    margin: 0;
+    margin: 5px;
 
     background: #f5f5f6;
     
@@ -41,17 +41,16 @@
 
 
 /*Academic Card Content*/
-.aca-card-top {
+.aca-card-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 10px;
 }
 
 .title {
     font-size: 20px;
     font-weight: 600;
-     color: #091d41;
+    color: #091d41;
 }
 
 .time {
@@ -60,11 +59,11 @@
     white-space: nowrap;
 }
 
-.aca-card-middle {
+.aca-card-body {
     display: flex;
     justify-content: space-between;
-    margin-top: 10px;
-    gap: 10px;
+    align-items: center;
+    
 }
 
 .institute {
@@ -77,13 +76,14 @@
     font-weight: 600;
     color:#000;
     white-space: nowrap;
+    
 }
 
-.summary {
+.aca-card-summary {
     margin-top: 12px;
-    font-size: 16px;
+    font-size: 15px;
     color: #6b7280;
-    line-height: 2;
+    line-height: 1;
 }
 
 
@@ -117,7 +117,7 @@
 }
 
 /*Certification Card Content*/
-.cert-title {
+.cert-titles {
     font-size: 15px;
     font-weight: 500;
     color:#111;
