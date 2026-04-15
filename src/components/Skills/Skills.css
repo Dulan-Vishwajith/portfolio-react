@@ -63,23 +63,10 @@
 .fill {
     height: 100%;
     width: 0;
-    background: linear-gradient(90deg, #091d41, #688ccf);
+    background: linear-gradient(90deg, #091d41, #6789f8);
     border-radius: 10px;
     animation: load 1.5s ease forwards;
 }
-
-/*SKILL LEVELS*/
-.js { width: 50%; }
-.python { width: 60%; }
-.java { width: 60%; }
-.c { width: 65%; }
-
-.html { width: 75%; }
-.css { width: 45%; }
-
-.react { width: 10%; }
-.node { width: 10%; }
-.express { width: 10%; }
 
 /*ANIMATION*/
 @keyframes load {
