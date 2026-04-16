@@ -5,7 +5,7 @@ import Education from './components/Education/Education';
 import Skills from './components/Skills/Skills';
 import Projects from './components/Projects/Projects';
 import Downloads from './components/Downloads/Downloads';
-import Publications from './components/Publications';
+import Publications from './components/Publications/Publications';
 import Contact from './components/Contacts';
 
 import './styles/App.css';
