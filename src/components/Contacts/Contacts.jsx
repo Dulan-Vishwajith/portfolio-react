@@ -1,15 +1,14 @@
-import '../styles/Contacts.css'
+import './Contacts.css'
+import ContactForm from './ContactForm';
 function Contact() {
   
   return (
-<>
-        <button className="back-to-top" id="backToTop" onclick="goTo('overview')"><i className="fas fa-arrow-up"></i></button>
         <section className="footer" id="contact">
             {/*Footer Container*/}
             <div className="footer-container">
                 
                 {/*Contact Section*/}
-                <h3 id="contact-title">GET IN TOUCH</h3>
+                <a href="#contact" className='title-button'><h3 id="contact-title">GET IN TOUCH</h3></a>
 
                 {/*Contact Details*/}
                 <div className="contact">
@@ -29,10 +28,11 @@ function Contact() {
                 </div>
 
             </div>
+
+            <ContactForm />
             
         </section>
-
- </> );
+    );
 }
 
 export default Contact;
