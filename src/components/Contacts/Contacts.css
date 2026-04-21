@@ -1,55 +1,74 @@
-
-.footer{
-    background-color: #091d41;
-    color: white;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 50px 20px; /* more spacing */
+.footer {
+  background-color: #091d41;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 20px;
 }
 
-.footer-container{
-    max-width: 600px;
-    width: 100%;
+/* Side by side row */
+.footer-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  width: 100%;
+  max-width: 900px;
+  flex-wrap: wrap; /* stacks on small screens */
 }
 
-.footer-container h3{
-    cursor: pointer;
-    color: #c9906f;
-    font-size: 22px;
-    letter-spacing: 2px; /* looks premium */
+.footer-container {
+  max-width: 400px;
+  width: 100%;
 }
 
-.contact h2{
-    font-size: 40px;
-    margin: 10px 0;
+.footer-container h3 {
+  cursor: pointer;
+  color: #c9906f;
+  font-size: 22px;
+  letter-spacing: 2px;
 }
 
-.email a{
-    font-size: 22px;
-    color: #c9906f;
-    text-decoration: none;
+.contact h2 {
+  font-size: 40px;
+  margin: 10px 0;
 }
 
-.email a:hover{
-    color: white;
+.links {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  gap: 15px;
+  margin-top: 15px;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.links{
-    display: flex;
-    justify-content: center;
-    gap: 22px; /* better than margin */
-    margin-top: 15px;
+.links a:last-child:nth-child(odd) {
+  grid-column: 1 / -1;
 }
 
-.links a{
-    color: white;
-    font-size: 22px;
-    text-decoration: none;
-    transition: 0.3s;
+.links a {
+  color: white;
+  font-size: 22px;
+  text-decoration: none;
+  transition: color 0.3s;
 }
 
-.links a:hover{
-    color: #c9906f;
+.links a:hover {
+  color: #c9906f;
+}
+
+/* Footer bottom spans full width below both columns */
+.footer-bottom {
+  margin-top: 40px;
+  font-size: 14px;
+  opacity: 0.8;
+  width: 100%;
+  text-align: center;
 }
