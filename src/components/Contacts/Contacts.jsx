@@ -17,7 +17,7 @@ function Contact() {
                 <h2>Let's Connect...</h2>
                     {/* Social Media and Contact Links */}
                     <div className="links">
-                    <a href="[github.com](https://github.com/Dulan-Vishwajith)" target="_blank" rel="noreferrer">
+                    <a href="https://github.com/Dulan-Vishwajith" target="_blank" rel="noreferrer">
                         <i className="fab fa-github"></i> GitHub
                     </a>
                     <a href="[linkedin.com](https://www.linkedin.com/in/dulan-vishwajith-a8a230216/)" target="_blank" rel="noreferrer">
