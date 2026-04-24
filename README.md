@@ -31,12 +31,7 @@ Available plugins:
 ---
 
 ## 🌐 Live Demo
-👉 https://your-website-link.com
-
----
-
-## 💻 Repository
-👉 https://github.com/your-username/your-repo
+👉 https://dulanvish.com/
 
 ---
 
