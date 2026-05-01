@@ -13,6 +13,7 @@ function Education(){
                     {/*Academic things*/}
                     <div className="academic">
                         
+                        
                         {/*Academic Cards*/}
                         {/*Card 1*/}
                         <Card 
