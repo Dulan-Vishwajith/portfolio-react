@@ -1,23 +1,22 @@
-import Overview from './components/Overview';
-import Navbar from './components/Navbar'; 
-import About from './components/About';
-import Education from './components/Education';
-import Skills from './components/Skills';
-
+import Overview from './components/Overview/Overview';
+import Navbar from './components/Navbar/Navbar'; 
+import About from './components/About/About';
+import Education from './components/Education/Education';
+import Skills from './components/Skills/Skills';
+import Projects from './components/Projects/Projects';
+import Downloads from './components/Downloads/Downloads';
+import Publications from './components/Publications/Publications';
+import Contact from './components/Contacts/Contacts';
+import ScrollingButton from './components/Scolling/ScrollingButton';
 
 import './styles/App.css';
 import './styles/Responsive.css';
-import Projects from './components/Projects';
-import Downloads from './components/Downloads';
-import Publications from './components/Publications';
-import Contact from './components/Contacts';
-
 
 
 function App() {
 
   return (<>
-          <Navbar />
+          <Navbar name="Dulan Vishwajith" />
           <Overview />
           <About />
           <Education />
@@ -26,6 +25,7 @@ function App() {
           <Downloads />
           <Publications/>
           <Contact/>
+          <ScrollingButton />
           </>);
 }
 
