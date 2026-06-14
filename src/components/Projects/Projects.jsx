@@ -2,6 +2,7 @@ import './Projects.css';
 import project1 from '../../assets/project_img/Porfolio.png';
 import project2 from '../../assets/project_img/3D-University-Map.png';
 import project3 from '../../assets/project_img/govibiz.png';
+import project4 from '../../assets/project_img/Task Management System.png';
 import ProjectCard from './ProjectCard';
 
 
@@ -85,6 +86,28 @@ function Projects() {
                         githubLink="https://github.com/Dulan-Vishwajith/GoviBiz.git"
                     />
 
+                    {/*Card  4*/}
+                    <ProjectCard 
+                        project_img={project4} 
+                        
+                        title=" Backend Development of a Task Management System using the MERN Stack (Individual Project)"
+                        
+                        description="Developed a Digital Agriculture Platform using the MERN Stack to connect farmers, buyers, agents, and delivery partners. Implemented user authentication, product management, order processing, role-based access control, and delivery tracking features to streamline agricultural trade, improve supply chain efficiency, and ensure fair pricing."
+                        
+                        technologies="JavaScript, Node.js, Express.js, MongoDB"
+                        
+                        features={[
+                                "User registration and secure authentication system",
+                                "Task creation, organization, and management",
+                                "Task retrieval, updating, and deletion functionality",
+                                "Protected routes with JWT-based authorization",
+                                "Responsive and intuitive user interface"
+                                ]}
+
+                            
+                        
+                        githubLink="https://github.com/Dulan-Vishwajith/task-manager-mern.git"
+                    />
                     
                 </div>
             </section>

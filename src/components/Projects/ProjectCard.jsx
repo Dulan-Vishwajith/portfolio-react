@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 
-function ProjectCard({project_img, title, description, technologies, features, liveDemoLink, githubLink}) {
+function ProjectCard({project_img, title, description="", technologies, features, liveDemoLink="", githubLink=""}) {
     //State to manage the active/inactive state of the project card
     const [activeness, setActiveness] = useState('inactive');
     //Function to toggle the active/inactive state of the project card
@@ -13,7 +13,7 @@ function ProjectCard({project_img, title, description, technologies, features, l
         //If the current state is 'active', set it to 'inactive', otherwise set it to 'active'
         setActiveness(prev => prev === 'active' ? 'inactive' : 'active');      
     }
-    
+
 
     //Return the project card component with the provided props and the toggle functionality
     //className of the project card is determined by the activeness state, allowing for styling based on whether the card is active or inactive
@@ -21,9 +21,11 @@ function ProjectCard({project_img, title, description, technologies, features, l
             <div className={"project-card " + activeness} onClick={toggleDetails}>
                 <img src = {project_img} alt="Project 1"/>
                 <h3>{title}</h3>
-                <p className="description">
-                    {description}
-                </p>
+                {description && (
+                    <p className="description">
+                        {description}
+                    </p>
+                )}
 
                 {/*DropDown Content*/}
                 <div className="project-details">
@@ -36,8 +38,14 @@ function ProjectCard({project_img, title, description, technologies, features, l
                     </ul>
 
                     <div className="project-buttons">
-                        <a href={liveDemoLink} target="_blank" rel="noopener noreferrer">Live Demo</a>
-                        <a href={githubLink} target="_blank" rel="noopener noreferrer">GitHub</a>
+                        {/*Only render the Live Demo and GitHub links if they are provided (not empty)*/}
+                        {liveDemoLink && (
+                            <a href={liveDemoLink} target="_blank" rel="noopener noreferrer">Live Demo</a>
+                        )}
+                        {/*Only render the GitHub link if it is provided (not empty)*/}
+                        {githubLink && (
+                            <a href={githubLink} target="_blank" rel="noopener noreferrer">GitHub</a>
+                        )}
                     </div>
                 </div>
 

@@ -19,7 +19,7 @@ function Contact() {
                 <div className="contact">
                     <h2>Let's Connect...</h2>
                         {/* Social Media and Contact Links */}
-                        <div className="l inks">
+                        <div className="links">
                         <a href={githubLink} target="_blank" rel="noreferrer">
                             <i className="fab fa-github"></i> GitHub
                         </a>
